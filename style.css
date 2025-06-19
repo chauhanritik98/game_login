@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    background: url("background.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+}
+div.main{
+    position: relative;
+    width: 400px;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+div.register{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(45DEG, rgba(105, 84, 69, 0.574),rgba(253, 217, 191, 0.631));
+    /* /background-color:rgba(255, 51, 0, 0.697); */
+    width: 200%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 3px 3px 100px rgb(0, 0, 0);
+    color:(#fff red green blue);
+}
+form#register{
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+label{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    font-style: italic;
+}
+input::placeholder {
+    color:#fff;
+    opacity: 1; /* for Firefox */
+}
+input#text{
+    color: #fff;
+    width: 300px;
+    border:1px solid #ddd;
+    border-radius: 25px;
+    outline: 0;
+    padding: 7px;
+    background-color:rgba(0, 0, 0, 0.5);
+    box-shadow:inset 1px 1px 5px rgba(255, 255, 255, 0.3);
+}
+input#gender{ 
+    border:1px solid #ddd;
+    border-radius: 25px;
+    outline: 0;
+    padding: 7px;
+    background-color:rgba(31, 31, 31, 0.5);
+    box-shadow:2px 2px 5px rgba(255, 255, 255, 0.3);
+}
+input#button{
+       
+    width: 100px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 25px;
+    background-color:rgba(0, 255, 13, 0.669);
+    color: rgba(0, 0, 0, 0.73);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: inset 2px 2px 5px rgba(231, 231, 231, 0.3);
+    
+}
+
+div.name{
+    margin: 10px;
+}
+div.gender{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+div.g1{
+    margin: 10px;
+    display:inline-block ;
+}
+div.button{
+    margin-left: 120px;
+}
